@@ -1,0 +1,178 @@
+/* -------- 和豐的 CSS -------- */
+/* .inputbox { */
+/* 	width: 500px; */
+/* } */
+.gender {
+	margin-left: 10px;
+}
+
+.titleinfo {
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+
+/*---------- 整版通用 ------------*/
+* {
+	margin: 0;
+	padding: 0;
+	/* css3盒子模型 */
+	box-sizing: border-box;
+}
+
+.w {
+	width: 1500px;
+	margin: 0 auto;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+/*---------- Header Area 此處有改原稿的43------------*/
+.navbar-brand img {
+	width: 42px;
+}
+/*---------- Content Body Area ------------*/
+.content {
+	margin: 80px auto 50px auto;
+	padding-top: 10px;
+	width: 1500px;
+	/* 	height: 800px; */
+	/* 	background-color: grey; */
+}
+
+.content-left {
+	float: left;
+	width: 250px;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: #e3b7ae;
+}
+
+.content-right {
+	float: right;
+	width: 1220px;
+	/* 	height: 600px; */
+	margin-top: 10px;
+	margin-right: 10px;
+	background-color: #ecf0f1;
+}
+
+.left-title {
+	height: 50px;
+	width: 100%;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.left-title>a {
+	display: block;
+	width: 100%;
+	height: 50px;
+	/*垂直居中*/
+	line-height: 50px;
+	/*水平居中*/
+	text-align: center;
+	color: #2f3542;
+	font-weight: 600;
+}
+
+.seg {
+	height: 1px;
+	width: 100%;
+	background-color: #2f3542;
+}
+
+.nav2 {
+	margin-top: 5px 0;
+}
+
+.nav2-title {
+	height: 40px;
+	width: 100%;
+	color: #2f3542;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+.nav2-menu {
+	height: 150px;
+}
+
+.nav2-content {
+	width: 100%;
+	height: 100%;
+	background-color: #f3efec;
+}
+
+.nav2-content>a {
+	display: block;
+	height: 30px;
+	width: 100%;
+	color: black;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+.nav2-content>a:hover {
+	display: block;
+	height: 30px;
+	width: 100%;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	background-color: black;
+}
+
+/* -----------------右邊修改 CSS區----------------- */
+.btnbox {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+h2 {
+	margin-left: 80px;
+	font-weight: bold;
+}
+
+.form-control {
+	width: 300px;
+}
+
+.dialog {
+	padding-left: 300px;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+	width: 80px;
+	margin: 10px 35px;
+	backgound:#d9dbdc;
+}
+
+.ui-dialog .ui-dialog-buttonpane button:hover {
+	background: #778ca3;
+	color:#f5f6fa;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: black;
+    background-color: #ecf0f1;
+    border-color: #ecf0f1;
+}
+
+.page-item>a{
+	background:#ecf0f1;
+	color: black;
+	border-color: #ecf0f1;
+}
