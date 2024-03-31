@@ -6,7 +6,7 @@
 
 《Flower Forever》2.0版特點：
 1. 連結DB時，導入Druid Jar檔。初始化Connection Pool的連接數，使用靜態方法取得連線，達到同台機器的請求拿的是同根連線，提高性能。
-2. 商品、訂單、用戶等每個模組，只編寫一個Servlet來實現該模組的所有功能。抽象出BaseServlet extends HttpServlet，接收前端JSP頁面發來的業務名稱，通過JAVA反射機制調用BaseServlet相應的各模組繼承子類別，其各模組Servlet內的方法名稱即是業務名稱。
+2. 2. 商品、訂單、用戶等每個模組，只編寫一個Servlet來實現該模組的所有功能。抽象出BaseServlet extends HttpServlet，接收前端JSP頁面發來的業務名稱，通過JAVA反射機制調用BaseServlet相應的各模組繼承子類別，其各模組Servlet內的方法名稱即是業務名稱。
 3. 部分前端頁面使用AJAX技術，同步載入資料。
 (以下為該作品的部分截圖)
 
